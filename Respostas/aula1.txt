@@ -1,0 +1,27 @@
+1. O que são sistemas embarcados?
+	R: Sistemas embarcados são aqueles que envolvem hardware e software de maneira integrados de modo a desenvolver uma atividade específica, a qual é conhecida desde o desenvolvimento do sistema.
+
+
+2. O que são sistemas microprocesssados?
+	R: Sistemas microprocessados são uma classe específica de sistemas embarcados em que os dados recebidos pelo aparato de sensores e as ações tomadas são interpretados e executados por código fonte diretamente em um microprocessador, onde não há um sistema operacional embarcado
+
+
+3. Apresente aplicações de sistemas embarcados:
+	(a) Para a indústria automotiva;
+ 		R: computador de bordo de veículos, sistemas de frenagem
+	(b) Para eletrodomésticos:
+		R: disposivos no contexto de internet das coisas: assistentes domésticos pessoais, eletrodomésticos "smart"
+	(c) Para automação industrial:
+ 		R: sistemas de controle de qualidade
+
+4. Cite arquiteturas possíveis e as diferenças entre elas.
+	R:
+	-DSPs: Processadores digitais de sinal são processadores que operam em velocidades maiores otimizados para processamento de sinais em tempo real.
+	-FPGAs: São circuitos integrados que permitem programação em hardware, fazendo o projetos de portas lógicas desejado.
+	-ASICS: São circuitos integrados customizados para uso específico, fazendo o projeto de transistores para a aplicação desejada.
+	-SoCs: São sistemas que integram processadores e outros dispositivos eletrônicos em um chip ou circuito integrado.
+	-MPSoCs: São SoCs compostas por mais de um processador interno.
+
+
+5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+	R: O Raspberry Pi é uma plataforma amplamente difundida e popular dentre as opções de system-on-chip, o que tem por consequência a existencia de uma ampla comunidade ativa que possibilita o desenvolvimento da própria plataforma bem como o alcance de bons resultados. Outro fator relevante é a relação custo-benefício,  uma vez que a Raspberry possui boas características de hardware a valores não tão elevados e a grande disponibilidae de versões disponíveis.
